@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="SQUADGOO Admin Panel - Internal Staff & Admins Only">
+  <meta name="theme-color" content="#6B21A8">
+  <title>SQUADGOO Admin Panel</title>
+  
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            squadgoo: {
+              purple: '#6B21A8',
+              pink: '#EC4899',
+              red: '#F43F5E',
+              orange: '#FF9500',
+              darkPurple: '#3D1A47',
+              lightGray: '#F3F4F6'
+            }
+          },
+          fontFamily: {
+            sans: ['Inter', 'sans-serif']
+          }
+        }
+      }
+    }
+  </script>
+  
+  <style>
+    body {
+      background: linear-gradient(135deg, #F3F4F6 0%, #E5E7EB 100%);
+    }
+  </style>
+</head>
+<body class="font-sans">
+  <div id="root"></div>
+  <script src="/src/index.js"></script>
+</body>
+</html>
