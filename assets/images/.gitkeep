@@ -1,0 +1,7 @@
+# This file ensures the images folder is tracked by git
+# Add your actual images to this folder:
+# - logo.png
+# - logo192.png
+# - logo512.png
+# - user-avatar-placeholder.png
+# - etc.
